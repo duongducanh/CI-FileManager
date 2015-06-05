@@ -1,0 +1,209 @@
+@charset "utf-8";
+
+/* CSS Document */
+*{
+margin:0px;
+padding:0px;
+}
+
+a{
+	text-decoration:none;
+	color:#0E0E1B;
+	font-weight:bold;
+	}
+
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333;
+	background:#3C3959;
+	}
+
+#main-wrap{
+	width:990px;
+	height:auto;
+	background:#3C3959;
+	margin:0px auto;
+	}
+	
+#top-box{
+	width:100%;
+	height:auto;
+	}
+	
+#logo{
+	float:left;
+	width:250px;
+	height:80px;
+	}
+	
+#logined{
+	float:right;
+	width:250px;
+	height:80px;
+	}	
+	
+#logined p{
+	width:100%;
+	height:auto;
+	color:#FFF;
+	text-align:center;
+	padding-top:10px;
+	}
+
+#logined p span{
+	font-weight:bold;
+	}	
+	
+#logined p a{
+	color:#FC0;
+	font-weight:bold;
+	text-decoration:none;
+	}
+	
+#logined p a:hover{
+	text-decoration:underline;
+	}		
+	
+/*------ Wrap ------*/	
+#wrap{
+	clear:both;
+	width:990px;
+	height:auto;
+	background:#FFF;
+	-moz-border-radius: 0 0 4px 4px;
+    -webkit-border-radius: 0 0 4px 4px;
+    -ms-border-radius: 0 0 4px 4px;
+    -o-border-radius: 0 0 4px 4px;
+	border-radius: 0 0 4px 4px;
+	}
+	
+#head{
+	width:100%;
+	height:auto;
+	}	
+	
+/*------ Navbar ------*/	
+#navbar{
+	width:100%;
+	height:auto;
+	background:#3C3959;
+	}	
+	
+#navbar ul{
+	width:100%;
+	height:40px;
+	line-height:40px;
+	background:#0E0E1B;
+	-moz-border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+    -ms-border-radius: 4px 4px 0 0;
+    -o-border-radius: 4px 4px 0 0;
+	border-radius: 4px 4px 0 0;
+	}	
+	
+#navbar ul li{
+	list-style:none;
+	float:left;
+	width:auto;
+	height:40px;
+	line-height:40px;
+	padding:0px 10px;
+	}		
+	
+#navbar ul li a{
+	color:#FFF;
+	}		
+	
+#navbar ul li a:hover{
+	color:#FC0;
+	}	
+	
+	
+#body{
+	width:970px;
+	height:auto;
+	padding:20px 10px;
+	
+	}	
+	
+	
+#main{
+	width:970px;
+	height:auto;
+	background:#FFF;
+	}	
+
+#main h2{
+	width:970px;
+	height:auto;
+	font-size:14px;
+	color:#000;
+	font-weight:bold;
+	text-transform:uppercase;
+	border-bottom:1px dotted #CCC;
+	margin-bottom:10px;
+	padding-bottom:10px;
+	}	
+	
+#main p{
+	width:100%;
+	height:auto;
+	line-height:18px;
+	margin-bottom:10px;
+	}	
+	
+#main p#signature{
+	text-align:right;
+	font-weight:bold;
+	}	
+
+/*------ Footer ------*/	
+#foot{
+	width:990px;
+	height:auto;
+	}	
+	
+#foot p{
+	width:970px;
+	height:auto;
+	padding:20px 10px;
+	color:#FFF;
+	text-align:center;
+	}	
+	
+#foot p a, span{
+	color:#FC0;
+	font-weight:normal;
+	}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		

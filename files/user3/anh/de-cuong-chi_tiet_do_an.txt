@@ -1,0 +1,127 @@
+H?C VI?N K? THU?T M?T M?
+KHOA AN TOÀN THÔNG TIN
+
+
+
+Ð? CÝÕNG Ð? ÁN T?T NGHI?P
+
+
+Ð? Tài: 
+Phát tri?n ?ng web an toàn s? d?ng CodeIgniter
+
+Gi?ng viên hý?ng d?n			: KS. V? Th? Vân
+Sinh viên th?c hi?n			: Dýõng Ð?c Anh – l?p AT7B
+Chuyên ngành ðào t?o			: An toàn thông tin
+Khóa:					: AT07
+
+
+
+
+
+
+
+
+Hà N?i. 02/2015?
+A.	 M? Ð?U
+
+1.	Ð?T V?N Ð?
+Trong nh?ng nãm tr? l?i ðây PHP ngày càng tr? nên ph? bi?n và thông d?ng trong n?n t?ng phát tri?n ?ng d?ng web( Ðý?c ðánh giá là ngôn ng? dành riêng cho phát tri?n web trong týõng lai ). Nó ð? kh?ng ðinh ðý?c th? m?nh và nh?ng ýu ði?m n?i b?t trong vi?c xây d?ng ?ng d?ng trên n?n t?ng web. Cùng v?i s? phát tri?n ðó ð? kéo theo r?t nhi?u nh?ng Framework và CMS n?i ti?ng ðý?c vi?t b?ng PHP ra ð?i nhý: Zend Framework, CodeIgniter Framework, Yii Framework, Kohana Framework, CMS Joomla, CMS wordpress, CMS magento...
+Codeigniter Framework ðý?c xem là m?t PHP framework ph? bi?n và d? ti?p c?n nh?t so v?i các PHP framework hi?n hành. Codeigniter ðý?c xây d?ng và ra m?t vào ngày 28-02-2006. Tr?i qua nhi?u l?n c?i biên và phát tri?n, hi?n phiên b?n m?i nh?t tính cho t?i th?i ði?m tôi vi?t bài này là 2.2.1
+
+2.	M?C ÐÍCH NGHIÊN C?U
++       T?m hi?u Codeigniter
++       Xây d?ng ?ng d?ng Web an toàn s? d?ng Codeigniter
+3.	PH?M VI NGHIÊN C?U
++        Xây d?ng ?ng d?ng web trên localhost
+4.	PHÝÕNG PHÁP NGHIÊN C?U
+Nghiên c?u tài li?u, t?p chí và các bài báo khoa h?c v? Codeigniter và ?ng d?ng web.
+S? d?ng phýõng pháp, công c? ð? t?m hi?u, th?c hành.
+Các công c? d? ki?n s? d?ng:
++	Ph?n c?ng : Máy tính
++	Ph?n m?m : Xampp, Zend studio, Notepad++, ... 
++	Codeigniter
+
+
+
+
+B.  N?I DUNG
+CHÝÕNG I – T?NG QUAN V? ?NG D?NG WEB
+1.1	?ng d?ng web là g??
+1.2	C?u trúc và ch?c nãng cõ b?n c?a ?ng d?ng web
+1.3	Các v?n ð? an toàn v?i ?ng d?ng web
+1.4	Quy tr?nh phát tri?n ?ng d?ng web
+
+CHÝÕNG II – T?NG QUAN V? CODEIGNITER
+2.1 M?t s? khái ni?m cõ b?n
+	2.1.1  Framework	
+	2.1.2  Codeigniter
+2.2 C?u trúc c?a Codeigniter
+2.2.1  C?u trúc thý m?c Codeigniter
+2.2.2  Mô h?nh MVC ( Models – Controllers - Views)
+2.2.3  Models
+2.2.4  Controllers
+2.2.5  Views
+2.2.6  Các thý vi?n
+2.2.7  Các helper và plugin
+2.2.8 T? d?ng khai báo
+2.2.9  Qu?n l? l?i
+2.2.10  Debugging
+2.2.11  B?o m?t
+2.3. Nh?ng thý vi?n chính c?a Codeigniter
+2.3.1  Input and security
+2.3.2  Form validation
+2.3.3  Database
+2.3.4  Email
+2.3.5  Session
+2.4. Các helper h?u ích
+2.4.1. Cookie
+2.4.2. File
+2.5. Ði?m n?i b?t và h?n ch? c?a Codeigniter
+
+CHÝÕNG III – XÂY D?NG H? TH?NG WEB QU?N L? TÀI LI?U AN TOÀN
+3.1. Ð?t v?n ð?
+3.2. Kh?o sát h? th?ng
+	3.2.1  Kh?o sát và mô t? h? th?ng
+	3.2.2  Yêu c?u cho h? th?ng
+	3.2.3  Kh?o sát yêu c?u an toàn cho h? th?ng
+3.3. Phân tích h? th?ng qu?n l? tài li?u
+	3.3.1  Phân tích các th?c th? và m?i quan h? chi ti?t
+	3.3.2  Phân tích ch?c nãng, x? l?
+	3.3.3  Phân tích d? li?u
+	3.3.4  Qu?n l? và phân quy?n ngý?i dùng
+	3.3.5  Phân tích và xác ð?nh các yêu c?u an toàn
+3.4. Xây d?ng h? th?ng website qu?n l? tài li?u
+	3.3.1  Môi trý?ng
+		3.3.1.1  Cài ð?t
+		3.3.1.2  Yêu c?u h? th?ng
+	3.3.2  Xây d?ng website
+		3.3.2.1  Backend – Trang ði?u khi?n cho qu?n tr? viên
+		3.3.2.2  Fontend – Trang hi?n th?
+
+CHÝÕNG IV – K?T LU?N, ÐÁNH GIÁ K?T QU? Ð?T ÐÝ?C, H?N CHÉ VÀ HÝ?NG PHÁT TRI?N
+4.1  K?t qu? ð?t ðý?c
+4.2  H?n ch?
+4.3 Hý?ng phát tri?n
+
+TÀI LI?U THAM KH?O
+
+
+
+
+Hà N?i, ngày 5 tháng 3 nãm 2015
+
+GIÁO VIÊN HÝ?NG D?N
+
+
+
+
+
+KS. V? Th? Vân	SINH VIÊN TH?C HI?N
+
+
+
+
+
+Dýõng Ð?c Anh
+
+

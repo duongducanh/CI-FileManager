@@ -1,0 +1,189 @@
+/* main rules */
+.col-fixed, .row-fluid {
+    float: left;
+}
+.col-fixed {
+    width: 300px;
+    margin-right: 5px;
+}
+.row-fluid {
+    width:calc(100% - 305px);
+    border: 1px solid #ecf0f1;
+    border-radius: 4px;
+}
+body {
+    margin: 5px;
+}
+header {
+    border: 1px solid #ecf0f1;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 5px;
+    width: 100%;
+}
+#main {
+    margin: 5px 0;
+}
+.file-toolbar {
+    border-bottom: 1px solid #ecf0f1;
+    padding: 5px;
+}
+.file-toolbar input[type="file"] {
+    display: inline;
+    width: 200px;
+}
+.taskbar {
+    border-bottom: 1px solid #ecf0f1;
+    padding: 5px;
+}
+.main-content {
+    padding: 5px;
+}
+footer {
+    border: 1px solid #ecf0f1;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+/* validation */
+.message {
+    opacity: 0;
+    filter: alpha(opacity= 0 );
+    transition: opacity 300ms ease-in-out;
+}
+.message > h5 {
+    background-color: #c0392b;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 3px;
+    padding: 6px 8px;
+}
+.parsley-errors-list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 12px;
+    line-height: 18px;
+    opacity: 0;
+    filter: alpha(opacity= 0 );
+    transition: opacity 300ms ease-in-out;
+}
+.parsley-errors-list li {
+    background: #c0392b;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+.parsley-errors-list li:first-child {
+    margin-top: 5px;
+}
+.parsley-errors-list li:last-child {
+    margin-bottom: 5px;
+}
+.parsley-errors-list.filled, .message.filled {
+    opacity: 1;
+    filter: alpha(opacity= 100 );
+}
+.parsley-success {
+    border-color: #64b92a !important;
+}
+.parsley-error {
+    border-color: #c0392b !important;
+}
+input + .parsley-errors-list li:first-child,
+select + .parsley-errors-list li:first-child,
+textarea + .parsley-errors-list li:first-child {
+    margin-top: 3px;
+}
+
+/* tree */
+.tree {
+    border: 1px solid #ecf0f1;
+    border-radius: 4px;
+    padding-bottom: 5px;
+}
+.tree > ul {
+    margin: 0;
+    padding-left: 0 !important;
+}
+.tree ul {
+    padding-left: 10px
+}
+.tree li {
+    list-style-type:none;
+    margin:0;
+    padding:5px 5px 0 5px;
+    position:relative
+}
+.tree li::before, .tree li::after {
+    content:'';
+    left:-10px;
+    position:absolute;
+    right:auto
+}
+.tree li::before {
+    border-left:1px solid #999;
+    bottom:50px;
+    height:100%;
+    top:-5px;
+    width:1px
+}
+.tree li::after {
+    border-top:1px solid #999;
+    height:20px;
+    top:25px;
+    width:15px
+}
+.tree li span {
+    border: 1px solid #999;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 12px;
+    padding: 4px 8px;
+    text-decoration: none;
+}
+.tree li i {
+    margin-right: 3px;
+}
+.tree li.parent_li>span {
+    cursor:pointer
+}
+.tree>ul>li::before, .tree>ul>li::after {
+    border:0
+}
+.tree li:last-child::before {
+    height:30px
+}
+.tree li.parent_li>span:hover, .tree li.parent_li>span:hover+ul li span {
+    background:#eee;
+    border:1px solid #94a0b4;
+    color:#000
+}
+.table a {
+    text-decoration: none;
+}
+.table a:hover {
+    text-decoration: underline;
+}
+.table thead th:nth-child(1) {
+    width: 5%;
+}
+.table thead th:nth-child(2) {
+    width: 5%;
+}
+.table thead th:nth-child(3) {
+    width: 40%;
+}
+.table thead th:nth-child(4) {
+    width: 15%;
+}
+.table thead th:nth-child(5) {
+    width: 15%;
+}
+.table thead th:nth-child(6) {
+    width: 20%;
+}

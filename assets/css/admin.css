@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/* CSS Document */
+*{
+margin:0px;
+padding:0px;
+}
+
+
+#logined{
+	text-align: center;
+	padding-top:10px;
+	}	
+	
+#logined p{
+	width:100%;
+	height:auto;
+	color:#black;
+	text-align:center;
+	}
+
+#logined p span{
+	color: #18BC9C;
+	font-weight:bold;
+	text-transform: capitalize;
+	}	
+	
+#logined p a{
+	font-weight:bold;
+	text-decoration:none;
+	}
+	
+#logined p a:hover{
+	text-decoration:underline;
+	}		
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		

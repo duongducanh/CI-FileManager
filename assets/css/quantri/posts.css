@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+#main h2 span#add-post{
+	float:right;
+	width:auto;
+	height:auto;
+	font-weight:bold;
+	text-transform:capitalize;
+	background:#0E0E1B;
+	padding:3px 8px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+	border-radius: 4px;
+	}
+	
+#main h2 span#add-post a{
+	color:#FC0;
+	}	
+
+#posts{
+	width:970px;
+	height:auto;
+	margin-bottom:10px;
+	}
+	
+#posts table{
+	width:100%;
+	height:auto;
+	border-top:1px solid #0E0E1B;
+	border-left:1px solid #0E0E1B;
+	}
+
+#posts table td{
+	padding-left:5px;
+	border-bottom:1px solid #0E0E1B;
+	border-right:1px solid #0E0E1B;
+	}
+	
+#posts table tr#first-row{
+	height:30px;
+	line-height:30px;
+	color:#FFF;
+	font-weight:bold;
+	text-align:left;
+	text-transform:capitalize;
+	background:#0E0E1B;
+	}	
+	
+#posts table tr.post-item td{
+	padding:10px 0px 10px 5px;
+	}	
+	
+#pagination{
+	width:970px;
+	height:auto;
+	text-align:right;
+	word-spacing:5px;
+	}	
+
+#pagination span{
+	font-weight:bold;
+	color:#FC0;
+	}	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
